@@ -1,0 +1,72 @@
+header {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;    
+}
+
+nav li {
+    display: inline;
+    margin:0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;    
+}
+
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 10px;    
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center; 
+    width: 30%;
+    vertical-align: top;
+    margin:  0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.produtos li:hover h2 {
+    font-size: 40px;
+ }
+
+.produto-preco {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: goldenrod;
+}
+
+.produtos h2 {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: white; 
+}
+
+footer p {
+    color:black;
+}
